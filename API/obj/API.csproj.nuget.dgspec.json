@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\mariia.vasylchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariia.vasylchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://sounuget01.eu.nice.com:8081/repository/General-Products-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Alkmaar-Binaries-local": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Unstable": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mariia.vasylchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariia.vasylchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://sounuget01.eu.nice.com:8081/repository/General-Products-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Alkmaar-Binaries-local": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Unstable": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mariia.vasylchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariia.vasylchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://sounuget01.eu.nice.com:8081/repository/General-Products-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Alkmaar-Binaries-local": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Unstable": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\mariia.vasylchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariia.vasylchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://sounuget01.eu.nice.com:8081/repository/General-Products-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/MediaVault-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Core-Unstable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Alkmaar-Binaries-local": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Released-SDKs": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Stable": {},
+          "http://sounuget01.eu.nice.com:8081/repository/NR-Integrations-Unstable": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mariia.vasylchenko\\source\\repos\\EventApp\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7.22376.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
