@@ -78,3 +78,8 @@ C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\runtimes\
 C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\MediatR.dll
+C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\mariia.vasylchenko\source\repos\EventApp\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
